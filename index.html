@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--daisy & tailand  link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -180,39 +182,43 @@
         <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
     
             <!-- 1st pic -->
-            <div class="hero min-h-80 rounded-lg " style="background-image: url('./Images/2.png');">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="text-left">
-                        <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
-                        <p class="mb-5">Welcome to our Junior Program, where young minds embark on a journey of exploration, learning, and growth.</p>
-                        <button class="btn btn-error text-white">Register Now!</button>
-                    </div>
-                </div>
-            </div>
+           <div class="sm:grid-cols-1">
+            <div class="hero min-h-80 rounded-lg sm:grid-cols-1 " style="background-image: url('../Images/2.png');">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                  <div class="text-left">
+                      <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                      <p class="mb-5">Welcome to our Junior Program, where young minds embark on a journey of exploration, learning, and growth.</p>
+                      <button class="btn btn-error text-white">Register Now!</button>
+                  </div>
+              </div>
+          </div>
+           </div>
     
             <!-- 2nd pic -->
-            <div class="hero min-h-80 rounded-lg " style="background-image: url('./Images/3.png');">
+            <div class="sm:grid-cols-1 "><div class="hero min-h-80 rounded-lg " style="background-image: url('../Images/3.png');">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                  <div class="text-left">
+                      <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                      <p class="mb-5">Our Teenager Program is crafted to address the unique needs and interests of teenagers.</p>
+                      <button class="btn btn-error text-white">Register Now!</button>
+                  </div>
+              </div>
+          </div></div>
+     
+            <!-- 3rd pic -->
+            <div class="sm:grid-cols-1 text-xl lg:col-span-2">
+              <div class="hero min-h-80 rounded-lg col-span-2 sm:grid-cols-1" style="background-image: url('../Images/4.png');">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="text-left">
-                        <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
-                        <p class="mb-5">Our Teenager Program is crafted to address the unique needs and interests of teenagers.</p>
-                        <button class="btn btn-error text-white">Register Now!</button>
+                        <div class="text-left"><h1 class=" mb-5 text-2xl font-bold text-left mr-auto">Professional Program</h1></div>
+                        <p class="mb-5 text-sm text-left mr-auto">Our Professional Program  is crafted to equip individuals with the skills and mindset needed to excel in their fields..</p>
+                        <button class="btn btn-error text-white mr-auto">Register Now!</button>
                     </div>
                 </div>
             </div>
-    
-            <!-- 3rd pic -->
-            <div class="hero min-h-80 rounded-lg col-span-2" style="background-image: url('./Images/4.png');">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="text-left">
-                        <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
-                        <p class="mb-5">Our Professional Program  is crafted to equip individuals with the skills, knowledge, and mindset needed to excel in their respective fields..</p>
-                        <button class="btn btn-error text-white">Register Now!</button>
-                    </div>
-                </div>
             </div>
     
         </div>
@@ -221,12 +227,218 @@
     
 </section>
 
+<!--Products Section-->
+<section>
+  <div class="container mx-auto lg:px-24 px-8 my-8 text-center  lg:mt-20">
+ <div>
+  <h6 class="font-bold text-3xl ">Our New Products</h6>
+  <p class="text-sm mt-3 ">We are thrilled to unveil our newest additions to the  family! After months of hard work, dedication, and a commitment to excellence, we are excited to present products that redefine standards.</p>
+ </div>
+  </div>
+</section>
 
-<img src="/Images/4.png" alt="1">
-<img src="./Images/4.png" alt="2">
-<img src="../../Images/4.png" alt="3">
-<img src="../Images/4.png" alt="4">
+<!--Products Section content done-->
+
+<!--Card 1st-->
+
+<div class="container mx-auto lg:px-24 px-8 my-8 lg:mt-20 flex ">
+ <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+  <div class="card w-99 bg-base-100 shadow-xl">
+
+    <div class="block lg:flex">
+
+      <figure><img src="./Images/5.png"height="h-10"  alt="Hoodies" /></figure>
+    <div class="card-body">
+      <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+        <img src="./Images/Frame (12).png" alt="">20
+        <img src="./Images/Frame (8).png" alt="">200
+        
+      
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Each flag tells a unique story, pride, and unity of nations?</p>
+       <div class="flex justify-between"> 
+        
+          <span class="text-red-500 font-bold">Price - $22.00</span>
+          
+          <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+          
+          
+        </div>
+       
          
+    </div>
+    
+    
+      </div>
+    </div>
+
+    <!--2nd card-->
+    <div class="card w-99 bg-base-100 shadow-xl">
+
+      <div class="block lg:flex ">
+  
+        <figure><img src="./Images/6.png"height="h-10"  alt="Hoodies" /></figure>
+      <div class="card-body">
+        <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+          <img src="./Images/Frame (12).png" alt="">20
+          <img src="./Images/Frame (8).png" alt="">200
+          
+        
+        </div>
+        <h2 class="card-title">World Cup Flags Football</h2>
+        <p>Each flag tells a unique story, pride, and unity of nations?</p>
+         <div class="flex justify-between"> 
+          
+            <span class="text-red-500 font-bold">Price - $22.00</span>
+            
+            <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+            
+            
+          </div>
+         
+           
+      </div>
+      
+      
+        </div>
+      </div>
+<!--3rd card-->
+<div class="card w-99 bg-base-100 shadow-xl">
+
+  <div class="block lg:flex">
+
+    <figure><img src="./Images/7.png"height="h-10"  alt="Hoodies" /></figure>
+  <div class="card-body">
+    <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+      <img src="./Images/Frame (12).png" alt="">20
+      <img src="./Images/Frame (8).png" alt="">200
+      
+    
+    </div>
+    <h2 class="card-title">Cap For Hockeys</h2>
+    <p> it's a symbol of dedication, resilience, and team spirit.</p>
+     <div class="flex justify-between"> 
+      
+        <span class="text-red-500 font-bold">Price - $22.00</span>
+        
+        <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+        
+        
+      </div>
+     
+       
+  </div>
+  
+  
+    </div>
+  </div>
+
+  <!--4th card-->
+  <div class="card w-99 bg-base-100 shadow-xl">
+
+    <div class="block lg:flex ">
+
+      <figure><img src="./Images/8.png"height="h-10"  alt="Hoodies" /></figure>
+    <div class="card-body">
+      <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+        <img src="./Images/Frame (12).png" alt="">20
+        <img src="./Images/Frame (8).png" alt="">200
+        
+      
+      </div>
+      <h2 class="card-title">World Cup Jerseys Football</h2>
+      <p>In every stitch, in every crest, the World Cup jersey tells a tale of national pride.</p>
+       <div class="flex justify-between"> 
+        
+          <span class="text-red-500 font-bold">Price - $22.00</span>
+          
+          <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+          
+          
+        </div>
+       
+         
+    </div>
+    
+    
+      </div>
+    </div>
+
+    <!--5th card-->
+    <div class="card w-99 bg-base-100 shadow-xl">
+
+      <div class="block lg:flex">
+  
+        <figure><img src="./Images/9.png"height="h-10"  alt="Hoodies" /></figure>
+      <div class="card-body">
+        <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+          <img src="./Images/Frame (12).png" alt="">20
+          <img src="./Images/Frame (8).png" alt="">200
+          
+        
+        </div>
+        <h2 class="card-title">World Cup Helmet Football</h2>
+        <p>Each flag tells a unique story, pride, and unity of nations?</p>
+         <div class="flex justify-between"> 
+          
+            <span class="text-red-500 font-bold">Price - $22.00</span>
+            
+            <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+            
+            
+          </div>
+         
+           
+      </div>
+      
+      
+        </div>
+      </div>
+      <!--6th card-->
+      <div class="card w-99 bg-base-100 shadow-xl">
+
+        <div class="block lg:flex ">
+    
+          <figure><img src="./Images/10.png"height="h-10"  alt="Hoodies" /></figure>
+        <div class="card-body">
+          <div class="flex "><img src="./Images/Frame (5).png" alt="icon">5.00
+            <img src="./Images/Frame (12).png" alt="">20
+            <img src="./Images/Frame (8).png" alt="">200
+            
+          
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>Each flag tells a unique story, pride, and unity of nations?</p>
+           <div class="flex justify-between"> 
+            
+              <span class="text-red-500 font-bold">Price - $22.00</span>
+              
+              <div class="flex gap-1"><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</div> 
+              
+              
+            </div>
+           
+             
+        </div>
+        
+        
+          </div>
+        </div>
+
+ </div>
+  </div
+  <!--card section done-->
+
+
+
+
+
+
+
+
+
+
         
     </main>
 
